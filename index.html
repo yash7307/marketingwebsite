@@ -24,11 +24,11 @@
             </div>
          </nav>
     </header>
-     <section class="container mx-auto px-4 py-16 ">
+     <section class="container mx-auto px-4 py-16 md:py-24">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
           <div class="space-y-8">
             <div class="space-y-4">
-              <span class="inline-block border border-emerald-600 text-emerald-600 px-3 py-1 rounded-full text-sm font-semibold w-fit">
+              <span class="inline-block border border-emerald-600 text-emerald-600 px-3 py-1 rounded w-fit text-sm font-semibold">
                 Marketing Strategist
               </span>
               <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight">
@@ -40,15 +40,15 @@
               </p>
             </div>
             <div class="flex flex-col sm:flex-row gap-4">
-              <button class="px-6 py-3 text-white bg-emerald-600 hover:bg-emerald-700 rounded-[20px] text-lg flex items-center justify-center">
+              <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors">
                 Get Free Strategy Call
                 <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/>
                 </svg>
-              </button>
-              <button class="px-6 py-3 border border-emerald-600 text-emerald-600 rounded-[20px] text-lg hover:bg-emerald-50">
+              </a>
+              <a href="#case-studies" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold border border-emerald-600 text-emerald-600 bg-white hover:bg-emerald-50 rounded-lg transition-colors">
                 View Case Studies
-              </button>
+              </a>
             </div>
             <div class="flex items-center space-x-8 pt-4">
               <div class="text-center">
@@ -68,11 +68,11 @@
           <div class="relative">
             <div class="relative z-10">
               <img
-                src="/placeholder.svg?height=600&width=500"
-                alt="Profile"
-                class="rounded-2xl shadow-2xl"
+                src="placeholder.jpg"
+                alt="Sarah Chen - Marketing Professional"
                 width="500"
                 height="600"
+                class="rounded-2xl shadow-2xl w-full object-cover realtive"
               />
             </div>
             <div class="absolute -top-4 -right-4 w-full h-full bg-emerald-100 rounded-2xl -z-10"></div>
@@ -83,31 +83,58 @@
          <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 ">Hi, I'm Sarah 👋</h2>
          <p class="text-xl text-slate-600">I believe every business has a unique story worth telling. My mission is to help you discover yours and<br> turn it into a powerful marketing engine that drives real results.</p>
       </section>
-      <section class="text-center">
-        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="max-[700px]:flex-col">
-                <h3 class="text-2xl font-semibold text-slate-900 mb-4 space-y-4">My Story</h3>
-                <p class="text-left p-[16px]">
+       <section id="about" class="bg-white py-16 md:py-24">
+        <div class="container mx-auto px-4">
+          <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Hi, I'm Sarah 👋</h2>
+              <p class="text-xl text-slate-600 leading-relaxed">
+                I believe every business has a unique story worth telling. My mission is to help you discover yours and
+                turn it into a powerful marketing engine that drives real results.
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+              <div class="space-y-6">
+                <h3 class="text-2xl font-semibold text-slate-900">My Story</h3>
+                <div class="space-y-4 text-slate-600">
+                  <p>
                     After spending years in corporate marketing watching good products fail due to poor storytelling, I
                     decided to go independent in 2016.
-                </p>
-                <p class="text-left p-[16px]">
+                  </p>
+                  <p>
                     Since then, I've worked with everyone from scrappy startups to Fortune 500 companies, helping them
                     craft compelling narratives that resonate with their audience and drive measurable growth.
-                </p>
-                <p class="text-left p-[16px]">
+                  </p>
+                  <p>
                     When I'm not crafting marketing strategies, you'll find me hiking with my golden retriever Max,
                     experimenting with new coffee brewing methods, or reading the latest marketing psychology research.
-                </p>
+                  </p>
+                </div>
+              </div>
+              <div class="space-y-6">
+                <h3 class="text-2xl font-semibold text-slate-900">What I Believe</h3>
+                <div class="space-y-4">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-2 h-2 bg-emerald-600 rounded-full mt-2 flex-shrink-0"></div>
+                    <p class="text-slate-600">Authenticity beats perfection every time</p>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <div class="w-2 h-2 bg-emerald-600 rounded-full mt-2 flex-shrink-0"></div>
+                    <p class="text-slate-600">Data should inform, not replace, human intuition</p>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <div class="w-2 h-2 bg-emerald-600 rounded-full mt-2 flex-shrink-0"></div>
+                    <p class="text-slate-600">Great marketing feels like a conversation, not a sales pitch</p>
+                  </div>
+                  <div class="flex items-start space-x-3">
+                    <div class="w-2 h-2 bg-emerald-600 rounded-full mt-2 flex-shrink-0"></div>
+                    <p class="text-slate-600">Small businesses deserve enterprise-level strategy</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-                <h3 class="text-2xl font-semibold text-slate-900 mb-4">What I Believe</h3>
-                <ul class="list-disc list-inside text-slate-600 space-y-2 text-left">
-                    <li>Every brand has a unique story that deserves to be told.</li>
-                    <li>Authenticity and data-driven strategies drive the best results.</li>
-                    <li>Long-term relationships matter more than quick wins.</li>
-                </ul>
-            </div>
+          </div>
         </div>
       </section>
       <section class="py-16 md:py-24 bg-slate-50">
@@ -119,67 +146,71 @@
             </p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto max-[700px]:flex-col">
-            <div class="p-8 hover:shadow-lg transition-shadow bg-white rounded-lg">
-              <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-          <!-- Target SVG Icon -->
-          
-              </div>
-              <h3 class="text-xl font-semibold text-slate-900 mb-4">Brand Strategy</h3>
-              <p class="text-slate-600 mb-6">
-          Discover your unique positioning and craft a compelling brand story that resonates with your ideal
-          customers.
-              </p>
-              <ul class="space-y-2 text-sm text-slate-600">
-          <li>• Brand positioning & messaging</li>
-          <li>• Competitive analysis</li>
-          <li>• Customer persona development</li>
-          <li>• Brand voice & tone guidelines</li>
-              </ul>
+          <div class="p-8 hover:shadow-lg transition-shadow bg-white rounded-lg">
+            <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
+              <!-- Target SVG Icon -->
+              <svg class="h-6 w-6 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="12" r="6" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+              </svg>
             </div>
-            <div class="p-8 hover:shadow-lg transition-shadow bg-white rounded-lg">
-              <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-          <!-- Trending Up SVG Icon -->
-          
-              </div>
-              <h3 class="text-xl font-semibold text-slate-900 mb-4">Growth Marketing</h3>
-              <p class="text-slate-600 mb-6">
-          Data-driven campaigns that turn prospects into customers and customers into advocates.
-              </p>
-              <ul class="space-y-2 text-sm text-slate-600">
-          <li>• Conversion optimization</li>
-          <li>• Email marketing automation</li>
-          <li>• Social media strategy</li>
-          <li>• Performance analytics</li>
-              </ul>
-            </div>
-            <div class="p-8 hover:shadow-lg transition-shadow bg-white rounded-lg">
-              <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
-          <!-- Zap SVG Icon -->
-          
-              </div>
-              <h3 class="text-xl font-semibold text-slate-900 mb-4">Marketing Audit</h3>
-              <p class="text-slate-600 mb-6">
-          Get a comprehensive review of your current marketing efforts with actionable recommendations.
-              </p>
-              <ul class="space-y-2 text-sm text-slate-600">
-          <li>• Website & funnel analysis</li>
-          <li>• Content strategy review</li>
-          <li>• Competitor benchmarking</li>
-          <li>• 90-day action plan</li>
-              </ul>
-             
-            </div>
-            
-            
-            
+            <h3 class="text-xl font-semibold text-slate-900 mb-4">Brand Strategy</h3>
+            <p class="text-slate-600 mb-6">
+              Discover your unique positioning and craft a compelling brand story that resonates with your ideal
+              customers.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-600">
+              <li>• Brand positioning & messaging</li>
+              <li>• Competitive analysis</li>
+              <li>• Customer persona development</li>
+              <li>• Brand voice & tone guidelines</li>
+            </ul>
           </div>
-          
+          <div class="p-8 hover:shadow-lg transition-shadow bg-white rounded-lg">
+            <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
+              <!-- Trending Up SVG Icon -->
+              <svg class="h-6 w-6 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <polyline points="6 18 18 6" stroke="currentColor" stroke-width="2" fill="none"/>
+                <polyline points="9 6 18 6 18 15" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-900 mb-4">Growth Marketing</h3>
+            <p class="text-slate-600 mb-6">
+              Data-driven campaigns that turn prospects into customers and customers into advocates.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-600">
+              <li>• Conversion optimization</li>
+              <li>• Email marketing automation</li>
+              <li>• Social media strategy</li>
+              <li>• Performance analytics</li>
+            </ul>
+          </div>
+          <div class="p-8 hover:shadow-lg transition-shadow bg-white rounded-lg">
+            <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-6">
+              <!-- Zap SVG Icon -->
+              <svg class="h-6 w-6 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" stroke="currentColor" stroke-width="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-900 mb-4">Marketing Audit</h3>
+            <p class="text-slate-600 mb-6">
+              Get a comprehensive review of your current marketing efforts with actionable recommendations.
+            </p>
+            <ul class="space-y-2 text-sm text-slate-600">
+              <li>• Website & funnel analysis</li>
+              <li>• Content strategy review</li>
+              <li>• Competitor benchmarking</li>
+              <li>• 90-day action plan</li>
+            </ul>
+          </div>
         </div>
-       
-              <div class="text-center mt-[12] p-[16px] text-3xl text-white">
-            <button class="rounded-[5px] bg-emerald-600 hover:bg-emerald-700">
-              Schedule  Free Consultation
-            </button>
+      </div>
+      <div class="text-center mt-12">
+        <button class="px-8 py-4 text-lg font-semibold text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors">
+          Schedule Free Consultation
+        </button>
+      </div>
 
           </div> 
       </section>
